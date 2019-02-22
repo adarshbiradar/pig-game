@@ -48,7 +48,7 @@ document.querySelector('.btn-hold').addEventListener('click',function()
     //update UI
     document.querySelector('#score-'+activeplayer).textContent=scores[activeplayer];
     //Check if player won the game 
-     if(scores[activeplayer]>=20)
+     if(scores[activeplayer]>=100)
      {
          document.querySelector('#name-'+activeplayer).textContent='Winner Winner Chicken Dinner!!';
          document.querySelector('.dice').style.display='none';
